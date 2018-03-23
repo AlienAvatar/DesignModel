@@ -58,6 +58,8 @@
 
 ### 工厂模式
 
+[!image](https://github.com/AlienAvatar/DesignModel/blob/master/images/factory.png)
+
 ###工厂方法模式    
  『工厂方法模式』定义了一个创建对象的接口，但由子类决定要实例化的类是哪一个。工厂方法让类把实例化推迟到子类。
  
@@ -98,6 +100,8 @@
 如果使用多个类加载器，可能导致单件失效。
 
 ### 命令模式
+[!image](https://github.com/AlienAvatar/DesignModel/blob/master/images/order.png)
+
 『命令模式』将“请求”封装成对象，以便使用不同的请求、队列或者日志来参数化对象。命令模式也支持可撤销工作。
 
 命令模式将发出请求的对象和执行请求的对象解耦
