@@ -48,6 +48,8 @@
   
 ### 装饰器模式
 
+![image](https://github.com/AlienAvatar/DesignModel/blob/master/images/decorate.png)
+
 设计原则：类应该对扩展开放，对修改关闭。
 
 『装饰器模式』动态地将责任附加到对象上。
