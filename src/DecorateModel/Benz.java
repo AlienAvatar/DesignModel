@@ -1,11 +1,5 @@
 package DecorateModel;
 
-public class Benz implements Car {
-    @Override
-    public void drive() {
-        System.out.println("The Benz is dirving");
-    }
-
-
+public  abstract class Benz implements Car {
     protected Car car;
 }
