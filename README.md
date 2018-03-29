@@ -1,5 +1,5 @@
 # DesignModel
-##设计模式
+## 设计模式
 
 ### 策略模式
 ![image](https://github.com/AlienAvatar/DesignModel/blob/master/images/strategy.png)
