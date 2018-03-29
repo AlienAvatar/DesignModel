@@ -113,10 +113,12 @@
 命令也可以用来实现日志和事务系统。
 
 ### 适配器模式
+![image](https://github.com/AlienAvatar/DesignModel/blob/master/images/adapter.png)
 
 『适配器模式』 将一个类的接口，转换成客户期望的另一个接口。适配器让原本不兼容的类合作无间。
 
 ### 外观模式
+![image](https://github.com/AlienAvatar/DesignModel/blob/master/images/facade.png)
 
 『外观模式』 提供一个统一的接口，用来访问子系统中的一群接口。外观定义一个高层接口，让子系统更容易使用。
 
@@ -135,10 +137,36 @@
 而外观将一群对象“包装”起来以简化其接口。
 
 ### 模板方法模式
+![image](https://github.com/AlienAvatar/DesignModel/blob/master/images/template.png)
 
 『模板方法模式』在一个方法中定义一个方法的骨架，而将一些步骤延迟到子类中。模板方法使得子类可以在不改变算法结构的情况下，重新定义
 算法中的某些步骤。
 
+钩子是一种方法，它在抽象类中不做事，或者只做默认的事，子类可以选择要不要去覆盖它。
 
+为了防止子类覆盖模板中的算法，可以把方法声明成final。
+
+好莱坞原则告诉我们，将决策权放在高层模块中，以便决定以及何时调用底层模块。
+
+策略模式和模块方法都是封装算法，一个用组合，一个用继承。
+
+工厂方法是模板方法的一个特殊版本。
+
+### 迭代器模式
+![image](https://github.com/AlienAvatar/DesignModel/blob/master/images/iterator.png)
+
+Aggregate是个聚合类，其中createIterator()方法中可以产生一个Iterator
+
+Iterator主要定义了hasNext()和next()方法
+
+Client组合了Aggregate,为了迭代遍历Aggregate,也需要组合Iterator
+
+『迭代器模式』提供一种方法顺序访问一个聚合对象中的各个元素，而又不暴露其内部的表示。
+
+设计原则：一个类应该只有一个引起变化的原因。
+
+### 组合模式
+
+『组合模式』允许将对象组合成树形结构来表现“整体/部分”层次结构。组合能让客户以一致性的方式处理个别对象和对象组合。
 
 
